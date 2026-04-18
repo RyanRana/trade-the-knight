@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background: #0a0b10;
+  color: #e6e9f2;
+}
+
+.panel {
+  @apply bg-panel border border-border rounded-lg;
+}
+.panel-header {
+  @apply px-4 py-3 border-b border-border flex items-center justify-between;
+}
+.panel-title {
+  @apply text-sm uppercase tracking-wider text-muted font-semibold;
+}
+.num {
+  @apply font-mono tabular-nums;
+}
+.pill {
+  @apply text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full border border-border text-muted;
+}
+.dot {
+  @apply inline-block w-2 h-2 rounded-full mr-2;
+}
