@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Runtime data captures & logs (recreated on each run)
+data/
+
+# Node / Next.js build artifacts
+visualizer/node_modules/
+visualizer/.next/
+visualizer/tsconfig.tsbuildinfo
+visualizer/.env.local
