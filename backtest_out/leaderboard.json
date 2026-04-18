@@ -1,0 +1,383 @@
+{
+  "baseline": [
+    {
+      "bot": "spread_farmer",
+      "net_pnl": 21655.774349184823,
+      "score": 18191.579726678323,
+      "fills": 2864,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE",
+        "SCAR",
+        "SCIX",
+        "YARD"
+      ]
+    },
+    {
+      "bot": "alpha_maker",
+      "net_pnl": 13483.167247626698,
+      "score": 9546.552000310696,
+      "fills": 3085,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "COORUD",
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE"
+      ]
+    },
+    {
+      "bot": "event_alpha",
+      "net_pnl": 0.6289999999571592,
+      "score": 0.5089999999571592,
+      "fills": 5,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "T02LEAD",
+        "T03LEAD",
+        "T05LEAD",
+        "T08LEAD",
+        "T09LEAD"
+      ]
+    },
+    {
+      "bot": "trend_hunter",
+      "net_pnl": 0.0,
+      "score": 0.0,
+      "fills": 0,
+      "ok": true,
+      "error": null,
+      "symbols_touched": []
+    },
+    {
+      "bot": "carry_vault",
+      "net_pnl": -422.7345374043798,
+      "score": -4128.44096210588,
+      "fills": 248,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "COLRUD"
+      ]
+    },
+    {
+      "bot": "cross_section_engine",
+      "net_pnl": -6197.153939304524,
+      "score": -10621.750717864776,
+      "fills": 1349,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE",
+        "RUX",
+        "SCAR",
+        "SCIX",
+        "YARD"
+      ]
+    },
+    {
+      "bot": "qfc_sniper",
+      "net_pnl": -10246.138464592514,
+      "score": -10770.000886019017,
+      "fills": 1669,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "QFC"
+      ]
+    },
+    {
+      "bot": "tick_sniper",
+      "net_pnl": -14761.992317280266,
+      "score": -20247.033461994022,
+      "fills": 2165,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "HILL",
+        "LIVI",
+        "QFC",
+        "RITE",
+        "YARD"
+      ]
+    }
+  ],
+  "tuned": [
+    {
+      "bot": "spread_farmer",
+      "score": 54287.16758893389,
+      "net_pnl": 60299.18919947138,
+      "fills": 3679,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE",
+        "RUX",
+        "SCAR",
+        "SCIX",
+        "YARD"
+      ]
+    },
+    {
+      "bot": "alpha_maker",
+      "score": 27273.68494266909,
+      "net_pnl": 36691.88224866509,
+      "fills": 3164,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "COORUD",
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE"
+      ]
+    },
+    {
+      "bot": "trend_hunter",
+      "score": 17638.24678116047,
+      "net_pnl": 17638.246781160473,
+      "fills": 1265,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "HILL",
+        "RUX"
+      ]
+    },
+    {
+      "bot": "cross_section_engine",
+      "score": 7236.548855573226,
+      "net_pnl": 10373.423473399482,
+      "fills": 1232,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "HILL",
+        "LIVI",
+        "PASS",
+        "QFC",
+        "RITE",
+        "RUX",
+        "SCAR",
+        "SCIX",
+        "YARD"
+      ]
+    },
+    {
+      "bot": "qfc_sniper",
+      "score": 1167.3040142196696,
+      "net_pnl": 1167.3040142196696,
+      "fills": 337,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "QFC"
+      ]
+    },
+    {
+      "bot": "event_alpha",
+      "score": 2.4781607005312294,
+      "net_pnl": 2.8181807005312294,
+      "fills": 17,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "T02LEAD",
+        "T03LEAD",
+        "T05LEAD",
+        "T06LEAD",
+        "T08LEAD",
+        "T09LEAD",
+        "T13LEAD"
+      ]
+    },
+    {
+      "bot": "carry_vault",
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "BUSRUD",
+        "COLRUD"
+      ]
+    },
+    {
+      "bot": "tick_sniper",
+      "score": -12054.829119925573,
+      "net_pnl": -7842.786521273316,
+      "fills": 1849,
+      "ok": true,
+      "error": null,
+      "symbols_touched": [
+        "HILL",
+        "LIVI",
+        "QFC",
+        "RITE",
+        "YARD"
+      ]
+    }
+  ],
+  "tune_summary": [
+    {
+      "bot": "alpha_maker",
+      "baseline_score": 9546.552000310696,
+      "best_score": 27273.68494266909,
+      "improvement": 17727.132942358396,
+      "overrides": {
+        "MIN_SPREAD": 0.05,
+        "QUOTE_INSIDE": 0.02,
+        "BASE_SIZE_PCT": 0.02,
+        "MAX_INVENTORY_PCT": 0.08,
+        "SKEW_STRENGTH": 0.7,
+        "SR_WINDOW": 120,
+        "MR_BAND_PCT": 0.03,
+        "MR_SIZE_PCT": 0.1,
+        "MAX_SYMBOLS": 12
+      },
+      "elapsed_sec": 10.58
+    },
+    {
+      "bot": "spread_farmer",
+      "baseline_score": 18191.579726678323,
+      "best_score": 54287.16758893389,
+      "improvement": 36095.58786225556,
+      "overrides": {
+        "MIN_SPREAD_BPS": 40,
+        "MIN_INSIDE": 0.03,
+        "EDGE_PCT": 0.35,
+        "BASE_SIZE_PCT": 0.012,
+        "MAX_INVENTORY_PCT": 0.03,
+        "SKEW_STRENGTH": 0.5,
+        "CV_MAX": 0.12,
+        "MIN_PRINTS": 50,
+        "MR_ENTRY_Z": 1.5,
+        "MR_SIZE_PCT": 0.06
+      },
+      "elapsed_sec": 11.29
+    },
+    {
+      "bot": "carry_vault",
+      "baseline_score": -4128.44096210588,
+      "best_score": -3987.3662928976482,
+      "improvement": 141.07466920823208,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.05
+      },
+      "elapsed_sec": 9.79
+    },
+    {
+      "bot": "cross_section_engine",
+      "baseline_score": -10621.750717864776,
+      "best_score": 7236.548855573226,
+      "improvement": 17858.299573438002,
+      "overrides": {
+        "TOP_K_FRACTION": 0.2,
+        "GROSS_EXPOSURE_PCT": 0.15,
+        "MAX_POS_PCT": 0.08,
+        "MIN_SCORE": 0.15,
+        "REBALANCE_SEC": 60.0,
+        "PRINTS_WINDOW": 30
+      },
+      "elapsed_sec": 11.69
+    },
+    {
+      "bot": "qfc_sniper",
+      "baseline_score": -10770.000886019017,
+      "best_score": 1167.3040142196696,
+      "improvement": 11937.304900238687,
+      "overrides": {
+        "TRIGGER_Z": 1.5,
+        "SIZE_PCT": 0.01,
+        "HARD_STOP_PCT": 0.12,
+        "MAX_HOLD_OBS": 5,
+        "MAX_HOLD_SEC": 180.0,
+        "SIGMA_EWMA_ALPHA": 0.1
+      },
+      "elapsed_sec": 9.98
+    },
+    {
+      "bot": "tick_sniper",
+      "baseline_score": -20247.033461994022,
+      "best_score": -12054.829119925573,
+      "improvement": 8192.20434206845,
+      "overrides": {
+        "SIGMA_EWMA_ALPHA": 0.05,
+        "MIN_PRINTS_FOR_SIG": 40,
+        "MAX_HOLD_PRINTS": 5,
+        "MAX_HOLD_SEC": 10.0,
+        "HARD_STOP_PCT": 0.025,
+        "MIN_RE_ENTRY_SEC": 0.5
+      },
+      "elapsed_sec": 10.43
+    },
+    {
+      "bot": "trend_hunter",
+      "baseline_score": 0.0,
+      "best_score": 17638.24678116047,
+      "improvement": 17638.24678116047,
+      "overrides": {
+        "CV_MIN": 0.05,
+        "CV_MAX": 0.2,
+        "MAX_SPREAD_BPS": 300,
+        "ENTRY_Z": 0.8,
+        "EXIT_Z": 0.1,
+        "EMA_SPAN": 60,
+        "MAX_POS_PCT": 0.1,
+        "STOP_ATR": 1.0,
+        "TAKE_ATR": 4.0,
+        "MAX_HOLD_SEC": 300.0
+      },
+      "elapsed_sec": 13.13
+    },
+    {
+      "bot": "event_alpha",
+      "baseline_score": 0.5089999999571592,
+      "best_score": 2.4781607005312294,
+      "improvement": 1.9691607005740703,
+      "overrides": {
+        "PRED_EDGE_MIN": 0.08,
+        "VRP_EDGE_MIN": 0.05,
+        "TRI_EDGE_MIN": 0.005,
+        "BAYES_POSTERIOR_EDGE": 0.15,
+        "MAX_HOLD_SEC": 300.0
+      },
+      "elapsed_sec": 11.74
+    }
+  ],
+  "config": {
+    "trials": 60,
+    "seed": 17,
+    "tick_every_n_events": 40,
+    "events": 5300
+  }
+}

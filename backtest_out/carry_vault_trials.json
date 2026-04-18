@@ -1,0 +1,917 @@
+{
+  "bot": "carry_vault",
+  "baseline_score": -4128.44096210588,
+  "baseline_pnl": -422.7345374043798,
+  "best_score": -3987.3662928976482,
+  "best_overrides": {
+    "FX_CARRY_THRESHOLD": 0.01,
+    "FX_POS_PCT": 0.08,
+    "BOND_BID_EDGE": 0.001,
+    "BOND_POS_PCT": 0.05,
+    "SANE_MAX_DEV": 0.05
+  },
+  "improvement": 141.07466920823208,
+  "elapsed_sec": 9.79,
+  "trials": [
+    {
+      "trial": 0,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 1,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 2,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 3,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 4,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 5,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 6,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 7,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 8,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 9,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 10,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 11,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 12,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 13,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 14,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 15,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -4027.557890392851,
+      "net_pnl": -353.19788000534754,
+      "fills": 292,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 16,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 17,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 18,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 19,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 20,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 21,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 22,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 23,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 24,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -4027.557890392851,
+      "net_pnl": -353.19788000534754,
+      "fills": 292,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 25,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 26,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 27,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -4128.44096210588,
+      "net_pnl": -422.7345374043798,
+      "fills": 248,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 28,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 29,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 30,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 31,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 32,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 33,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 34,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 35,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 36,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 37,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 38,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 39,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 40,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 41,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 42,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19707.951347065737,
+      "net_pnl": -3201.9184394057374,
+      "fills": 429,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 43,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.05,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -4128.44096210588,
+      "net_pnl": -422.7345374043798,
+      "fills": 248,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 44,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 45,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 46,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.05,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -4128.44096210588,
+      "net_pnl": -422.7345374043798,
+      "fills": 248,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 47,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 48,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -4027.557890392851,
+      "net_pnl": -353.19788000534754,
+      "fills": 292,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 49,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.03
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 50,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -13848.919179399287,
+      "net_pnl": -1398.5873417822877,
+      "fills": 319,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 51,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 52,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 53,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.02,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 54,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 55,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.05,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.2,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -19656.055246815547,
+      "net_pnl": -3150.0223391555483,
+      "fills": 427,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 56,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.08,
+        "BOND_BID_EDGE": 0.008,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.08
+      },
+      "score": -3987.3662928976482,
+      "net_pnl": -318.1102692056447,
+      "fills": 288,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 57,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.005,
+        "FX_POS_PCT": 0.02,
+        "BOND_BID_EDGE": 0.001,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -8795.255383226957,
+      "net_pnl": -1091.9391541619552,
+      "fills": 307,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 58,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.03,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.004,
+        "BOND_POS_PCT": 0.15,
+        "SANE_MAX_DEV": 0.12
+      },
+      "score": -19653.336466015196,
+      "net_pnl": -3147.3035583551973,
+      "fills": 425,
+      "ok": true,
+      "error": null
+    },
+    {
+      "trial": 59,
+      "overrides": {
+        "FX_CARRY_THRESHOLD": 0.01,
+        "FX_POS_PCT": 0.12,
+        "BOND_BID_EDGE": 0.002,
+        "BOND_POS_PCT": 0.1,
+        "SANE_MAX_DEV": 0.05
+      },
+      "score": -4027.557890392851,
+      "net_pnl": -353.19788000534754,
+      "fills": 292,
+      "ok": true,
+      "error": null
+    }
+  ]
+}

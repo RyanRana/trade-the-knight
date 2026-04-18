@@ -1,3 +1,13 @@
+"""AUTO-TUNED by backtest/tune.py
+bot: cross_section_engine
+trials: 60
+baseline_score: -10621.75
+best_score: 7236.55
+improvement: +17858.30
+best_overrides: {'TOP_K_FRACTION': 0.2, 'GROSS_EXPOSURE_PCT': 0.15, 'MAX_POS_PCT': 0.08, 'MIN_SCORE': 0.15, 'REBALANCE_SEC': 60.0, 'PRINTS_WINDOW': 30}
+
+Generated copy — edit the source in published_bots/ and re-run tune.py instead.
+"""
 """
 cross_section_engine.py — dollar-neutral portfolio engine.
 
@@ -31,14 +41,14 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(mess
 
 BOT_ID = os.environ.get("BOT_ID", "")
 
-PRINTS_WINDOW       = 60
+PRINTS_WINDOW       = 30
 MIN_HISTORY         = 20
-REBALANCE_SEC       = 20.0
-TOP_K_FRACTION      = 0.33     # top/bottom third of scored symbols
+REBALANCE_SEC       = 60.0
+TOP_K_FRACTION      = 0.2     # top/bottom third of scored symbols
 GROSS_EXPOSURE_PCT  = 0.15     # max gross (long + short notional) / capital — lowered from 0.25 after live margin rejections showed account-wide gross $570k vs $301k cap
-MAX_POS_PCT         = 0.04     # per-symbol cap — lowered from 0.06 to match new gross cap
+MAX_POS_PCT         = 0.08     # per-symbol cap — lowered from 0.06 to match new gross cap
 MAX_SHORT_GROSS_PCT = 0.10     # naked shorts 1.5x margin'd — lowered from 0.15
-MIN_SCORE           = 0.30     # absolute score needed to take a position
+MIN_SCORE           = 0.15     # absolute score needed to take a position
 BAILOUT_HALT_EQUITY = 25_000
 
 # Risk-off: if current gross exposure already exceeds this fraction of the
@@ -404,20 +414,5 @@ class Engine:
                 time.sleep(0.5)
 
 
-def _supervised():
-    """Outer auto-restart loop. Crashes in run() relaunch a fresh instance."""
-    backoff = 1.0
-    while True:
-        try:
-            Engine().run()
-            log.warning("run() returned cleanly — restarting in %.1fs", backoff)
-        except KeyboardInterrupt:
-            raise
-        except Exception as exc:
-            log.exception("FATAL in run(): %s — restarting in %.1fs", exc, backoff)
-        time.sleep(backoff)
-        backoff = min(60.0, backoff * 2)
-
-
 if __name__ == "__main__":
-    _supervised()
+    Engine().run()
