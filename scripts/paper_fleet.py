@@ -46,9 +46,10 @@ def load_env(path):
 
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-load_env(os.path.join(HERE, "visualizer", ".env.local"))
+ROOT = os.path.dirname(HERE)
+load_env(os.path.join(ROOT, "visualizer", ".env.local"))
 
-DATA_DIR = os.path.join(HERE, "data")
+DATA_DIR = os.path.join(ROOT, "data")
 os.makedirs(DATA_DIR, exist_ok=True)
 
 

@@ -13,7 +13,7 @@ Complements analyze_edges.py. Focused on:
 from __future__ import annotations
 import json, math, statistics, collections, os
 
-ROOT = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 
 
